@@ -8,7 +8,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Load data
-full_data = pd.read_csv('full_data.csv') 
+full_data = pd.read_csv("full_data.csv") 
 
 # Preprocessing
 full_data['order_purchase_timestamp'] = pd.to_datetime(full_data['order_purchase_timestamp'])
