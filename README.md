@@ -4,12 +4,11 @@
 conda create --name main-ds python=3.12.7
 conda activate main-ds
 pip install -r requirements.txt
+jupyter-notebook
 ```
 
 ## Setup Environment - Shell/Terminal
 ```
-mkdir proyek_analisis_data
-cd proyek_analisis_data
 python -m venv env
 .\env\Scripts\activate
 pip install -r requirements.txt
