@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 https://taskdatascience-ecommerce.streamlit.app/
+=======
+https://taskdatascience-ecommerce.streamlit.app/
+>>>>>>> 9207e2a777930ea68e5a922542af5bbbe4cb4e58
