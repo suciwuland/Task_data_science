@@ -1,3 +1,4 @@
+import os
 import pandas as pd 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -7,8 +8,12 @@ from babel.numbers import format_currency
 # Set the style for Seaborn
 sns.set(style='dark')
 
+# Define the path to the dataset
+current_dir = os.path.dirname(__file__) 
+file_path = os.path.join(current_dir, 'full_data.csv')  
+
 # Load data
-full_data = pd.read_csv("full_data.csv") 
+full_data = pd.read_csv(file_path)
 
 # Preprocessing
 full_data['order_purchase_timestamp'] = pd.to_datetime(full_data['order_purchase_timestamp'])
